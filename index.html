@@ -1,0 +1,1582 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Långpass på Lidingöloppsbanan</title>
+<style>:root{color-scheme:light dark;background:light-dark(rgb(255 255 255), rgb(24 24 24))}html,body{margin:0}body{box-sizing:border-box;padding:1rem;background:inherit}iframe{display:block;width:100%;height:calc(100vh - 2rem);margin:0 auto;border:0}</style>
+</head>
+<body>
+<iframe sandbox="allow-scripts" referrerpolicy="no-referrer" title="Långpass på Lidingöloppsbanan" srcdoc="&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+&lt;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;default-src &#x27;none&#x27;; script-src &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; &#x27;wasm-unsafe-eval&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src &#x27;unsafe-inline&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src &#x27;none&#x27;; object-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;&quot;&gt;
+&lt;title&gt;Långpass på Lidingöloppsbanan&lt;/title&gt;
+&lt;style&gt;:root {
+  color-scheme: light dark;
+  background-color: var(
+    --background,
+    var(--color-background-primary, light-dark(rgb(255 255 255), rgb(24 24 24)))
+  ) !important;
+
+  /* Agent-facing contract; keep in sync with SKILL.md. */
+  --background: var(
+    --color-background-primary,
+    light-dark(rgb(255 255 255), rgb(24 24 24))
+  );
+  --foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --card: color-mix(in oklab, var(--foreground) 5%, var(--background));
+  --card-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --popover: var(
+    --color-background-secondary,
+    light-dark(rgb(255 255 255), rgb(45 45 45))
+  );
+  --popover-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --primary: var(
+    --color-text-info,
+    light-dark(rgb(51 156 255), rgb(131 195 255))
+  );
+  --primary-foreground: var(
+    --color-text-inverse,
+    light-dark(rgb(255 255 255), rgb(13 13 13))
+  );
+  --secondary: var(
+    --color-background-secondary,
+    light-dark(rgb(255 255 255 / 96%), rgb(54 54 54 / 96%))
+  );
+  --secondary-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --muted: color-mix(in srgb, var(--foreground) 10%, transparent);
+  --muted-foreground: var(
+    --color-text-secondary,
+    light-dark(rgb(26 28 31 / 49.4%), rgb(255 255 255 / 49.8%))
+  );
+  --accent: var(
+    --color-background-info,
+    light-dark(rgb(229 242 255), rgb(13 39 63))
+  );
+  --accent-foreground: var(
+    --color-text-info,
+    light-dark(rgb(51 156 255), rgb(131 195 255))
+  );
+  --destructive: var(
+    --color-text-warning,
+    light-dark(rgb(226 85 7), rgb(255 133 73))
+  );
+  --border: var(
+    --color-border-secondary,
+    light-dark(rgb(26 28 31 / 8%), rgb(255 255 255 / 8.2%))
+  );
+  --input: var(
+    --color-border-primary,
+    light-dark(
+      rgb(26 28 31 / 11.8%),
+      color-mix(in oklab, rgb(0 0 0) 10%, transparent)
+    )
+  );
+  --ring: var(
+    --color-ring-primary,
+    light-dark(rgb(51 156 255), rgb(131 195 255 / 76%))
+  );
+  --font-size-base: var(--font-text-md-size, 14px);
+  --blue: light-dark(rgb(51 156 255), rgb(51 156 255));
+  --orange: light-dark(rgb(226 85 7), rgb(251 106 34));
+  --green: light-dark(rgb(0 162 64), rgb(64 201 119));
+  --red: light-dark(rgb(224 46 42), rgb(255 103 100));
+  --purple: light-dark(rgb(146 79 247), rgb(173 123 249));
+  --yellow: light-dark(rgb(255 195 0), rgb(255 210 64));
+  --viz-series-1: var(--primary);
+  --viz-series-2: light-dark(rgb(243 136 59), rgb(245 154 86));
+  --viz-series-3: light-dark(rgb(93 201 119), rgb(116 213 139));
+  --viz-series-4: light-dark(rgb(235 119 177), rgb(240 143 192));
+  --viz-series-5: light-dark(rgb(155 121 236), rgb(170 145 239));
+  --viz-series-6: light-dark(rgb(58 185 177), rgb(90 203 194));
+
+  /* Internal implementation variables; not part of the agent contract. */
+  --font-sans: -apple-system, system-ui, &quot;Segoe UI&quot;, sans-serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;,
+    monospace;
+  --font-size-normal: max(11px, var(--font-size-base));
+  --font-size-tooltip: calc(var(--font-size-base) - 1px);
+  --font-size-small: max(11px, calc(var(--font-size-base) - 2px));
+  --font-size-h1: calc(var(--font-size-normal) * 1.7142857143);
+  --font-size-h2: calc(var(--font-size-normal) * 1.4285714286);
+  --font-size-h3: calc(var(--font-size-normal) * 1.2857142857);
+  --font-weight-normal: 430;
+  --font-weight-medium: 500;
+  --line-height-normal: calc(var(--font-size-normal) * 1.5);
+  --line-height-tooltip: calc(var(--font-size-tooltip) * 1.4285714286);
+  --line-height-small: calc(var(--font-size-small) + 4px);
+  --radius: var(--border-radius-lg, 12.5px);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-2xl: calc(var(--radius) * 1.6);
+  --radius-full: 9999px;
+  --shadow-sm: 0 1px 2px -1px rgb(0 0 0 / 8%);
+  --checkmark-image: url(&quot;data:image/svg+xml,%3Csvg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 17 17&#x27;%3E%3Cpath d=&#x27;M12.8961 3.64101C13.1297 3.41418 13.4984 3.37523 13.7779 3.56581C14.0571 3.75635 14.1554 4.11331 14.0299 4.41347L13.9615 4.53847L7.71151 13.7045C7.59411 13.8767 7.4063 13.9877 7.19881 14.0072C6.99136 14.0267 6.78564 13.9533 6.63826 13.806L2.88826 10.056L2.79842 9.9457C2.6192 9.67407 2.64927 9.30496 2.88826 9.06581C3.12738 8.82669 3.49647 8.79676 3.76815 8.97597L3.8785 9.06581L7.03084 12.2182L12.8053 3.74941L12.8961 3.64101Z&#x27;/%3E%3C/svg%3E&quot;);
+
+  /* Legacy aliases; not part of the current agent contract. */
+  --viz-bg: transparent;
+  --viz-panel: var(--card);
+  --viz-border: var(--border);
+  --viz-text: var(--foreground);
+  --viz-muted: var(--muted-foreground);
+  --viz-accent: var(--primary);
+  --viz-accent-text: var(--primary-foreground);
+  --viz-accent-bg: var(--accent);
+  --viz-font-size: var(--font-size-base);
+  --viz-warning: var(--destructive);
+}
+
+:root[data-theme=&quot;light&quot;] {
+  color-scheme: light;
+}
+
+:root[data-theme=&quot;dark&quot;] {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html &gt; body {
+  /* Preserve MCP aliases for older inline renderers without creating :root cycles. */
+  --color-background-primary: var(
+    --background,
+    light-dark(rgb(255 255 255), rgb(24 24 24))
+  );
+  --color-text-primary: var(
+    --foreground,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --color-border-secondary: var(
+    --border,
+    light-dark(rgb(26 28 31 / 8%), rgb(255 255 255 / 8.2%))
+  );
+
+  margin: 0;
+  padding: 5px;
+  color: var(--foreground);
+  background: transparent !important;
+  font-family: var(--font-sans) !important;
+  font-size: var(--font-size-normal);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-normal);
+}
+
+a {
+  color: color-mix(in srgb, var(--viz-accent) 80%, var(--viz-text) 20%);
+  cursor: pointer;
+  font-weight: var(--font-weight-medium, 500);
+  text-decoration: none;
+  text-underline-offset: 2px;
+}
+
+a:is(:hover, :focus-visible) {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 0.5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-block: 0;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.3;
+}
+
+b,
+strong,
+th {
+  font-weight: var(--font-weight-medium);
+}
+
+code:not(pre code) {
+  display: inline;
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  corner-shape: superellipse(1.5);
+  background: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.92em;
+  overflow-wrap: anywhere;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  word-break: break-word;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--foreground);
+  font: inherit;
+  text-align: start;
+}
+
+.table :is(th, td) {
+  padding-block: 10px;
+  padding-inline: 0 24px;
+  overflow-wrap: anywhere;
+  border-bottom: 1px solid var(--border);
+  text-align: start;
+  vertical-align: top;
+}
+
+.table-responsive &gt; .table :is(th, td) {
+  overflow-wrap: break-word;
+}
+
+.table :is(th, td):last-child {
+  padding-inline-end: 0;
+}
+
+.table :is(caption, thead th) {
+  font-weight: 600;
+}
+
+.table thead th {
+  padding-block: 8px;
+  border-bottom-color: color-mix(in srgb, var(--foreground) 16%, transparent);
+}
+
+.table tbody tr:last-child :is(th, td) {
+  border-bottom: 0;
+}
+
+.table.table-sm :is(th, td) {
+  padding-block: 6px;
+}
+
+.table.table-sm :is(th, td):not(:last-child) {
+  padding-inline-end: 16px;
+}
+
+.table :is(.text-end, [align=&quot;right&quot;]) {
+  text-align: end;
+  font-variant-numeric: tabular-nums;
+}
+
+.table :is(.text-center, [align=&quot;center&quot;]) {
+  text-align: center;
+}
+
+.table .text-nowrap {
+  white-space: nowrap;
+}
+
+#widget {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  padding: 0;
+  background: transparent !important;
+}
+
+.card {
+  min-width: 0;
+  padding: 12px;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  border-radius: var(--radius-2xl);
+  corner-shape: superellipse(1.5);
+  color: var(--card-foreground);
+  background: var(--card);
+}
+
+#widget &gt; :not(.card, .progress) {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.tooltip {
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  width: max-content;
+  max-width: min(
+    20rem,
+    var(--tooltip-available-width, calc(100vw - 10px)),
+    calc(100vw - 10px)
+  );
+  max-height: min(
+    var(--tooltip-available-height, calc(100vh - 10px)),
+    calc(100vh - 10px)
+  );
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  corner-shape: superellipse(1.5);
+  color: var(--popover-foreground);
+  background: var(--popover);
+  box-shadow: none;
+  font-size: var(--font-size-tooltip);
+  line-height: var(--line-height-tooltip);
+  overflow-wrap: break-word;
+  white-space: normal;
+  pointer-events: none;
+  user-select: none;
+}
+
+.viz-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(max(180px, 24%), 1fr));
+  gap: 10px;
+}
+
+.viz-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.viz-stat-value {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+.viz-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.progress {
+  display: flex;
+  height: 6px;
+  margin-block: calc((var(--line-height-normal, 1.5em) - 6px) / 2);
+  overflow: hidden;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: var(--muted);
+}
+
+.progress-bar {
+  height: 100%;
+  flex-shrink: 0;
+  border: 0;
+  background: var(--viz-series-1);
+}
+
+.viz-badge {
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  color: var(--accent-foreground);
+  background: var(--accent);
+  font-weight: var(--font-weight-medium);
+}
+
+small,
+.text-small,
+.viz-badge {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+}
+
+.text-muted {
+  color: var(--muted-foreground);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.viz-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.viz-controls &gt; .form-label {
+  display: grid;
+  min-width: min(100%, 260px);
+  flex: 1 1 280px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 2px 12px;
+  margin-bottom: 0;
+}
+
+.viz-controls &gt; .form-label &gt; :is(.form-control, .form-range, .form-select) {
+  grid-column: 1 / -1;
+}
+
+.btn,
+.form-check-input,
+.form-control,
+.form-range,
+.form-select {
+  font: inherit;
+}
+
+.btn {
+  appearance: button;
+  display: inline-flex;
+  inline-size: fit-content;
+  max-inline-size: 100%;
+  min-height: 28px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin: 0;
+  padding: 0 8px;
+  -webkit-app-region: no-drag;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  corner-shape: superellipse(1.5);
+  color: var(--secondary-foreground);
+  background: var(--secondary);
+  cursor: var(--cursor-interaction, pointer);
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn:is(.btn-block, .viz-tile) {
+  inline-size: 100%;
+}
+
+.btn.viz-tile {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+a.btn {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:not(:disabled):hover {
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.btn-primary {
+  border-color: transparent;
+  color: var(--primary-foreground);
+  background: var(--foreground);
+  background-clip: padding-box;
+}
+
+.btn-primary .text-muted {
+  color: color-mix(in srgb, var(--primary-foreground) 50%, transparent);
+}
+
+.btn-primary:not(:disabled):hover {
+  background: color-mix(in srgb, var(--foreground) 80%, transparent);
+  background-clip: padding-box;
+}
+
+.btn-ghost {
+  border-color: transparent;
+  color: var(--muted-foreground);
+  background: transparent;
+}
+
+.btn-ghost:not(:disabled):hover {
+  color: var(--foreground);
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+[data-lucide] {
+  stroke-width: 1.6;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--foreground);
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  padding: 0 8px;
+  outline: none;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  corner-shape: superellipse(1.5);
+  color: var(--foreground);
+  background: var(--secondary);
+}
+
+.form-control::placeholder {
+  color: var(--muted-foreground);
+}
+
+.form-control[type=&quot;file&quot;] {
+  padding: 0;
+  overflow: hidden;
+  cursor: var(--cursor-interaction, pointer);
+}
+
+.form-control[type=&quot;file&quot;]::file-selector-button {
+  min-height: 26px;
+  margin-right: 8px;
+  padding: 0 8px;
+  border: 0;
+  border-right: 1px solid var(--input);
+  color: var(--secondary-foreground);
+  background: var(--secondary);
+  cursor: inherit;
+  font: inherit;
+}
+
+.form-control[type=&quot;file&quot;]:not(:disabled):hover::file-selector-button {
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.form-control-color[type=&quot;color&quot;] {
+  width: 40px;
+  height: 28px;
+  padding: 3px;
+  cursor: var(--cursor-interaction, pointer);
+}
+
+.form-control-color[type=&quot;color&quot;]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.form-control-color[type=&quot;color&quot;]::-webkit-color-swatch {
+  border: 0;
+  border-radius: calc(var(--radius-lg) - 4px);
+  corner-shape: superellipse(1.5);
+}
+
+textarea.form-control {
+  height: auto;
+  min-height: 72px;
+  padding: 8px 10px;
+  resize: vertical;
+}
+
+.form-control:focus-visible {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-control:disabled,
+.form-select:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.form-select {
+  appearance: none;
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  margin: 0;
+  padding: 0 32px 0 8px;
+  outline: none;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  corner-shape: superellipse(1.5);
+  color: var(--foreground);
+  background-color: var(--secondary);
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--muted-foreground) 50%),
+    linear-gradient(135deg, var(--muted-foreground) 50%, transparent 50%);
+  background-position:
+    calc(100% - 14px) 50%,
+    calc(100% - 10px) 50%;
+  background-repeat: no-repeat;
+  background-size: 4px 4px;
+  cursor: var(--cursor-interaction, default);
+}
+
+.form-select:not(:disabled):hover {
+  background-color: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.form-select:focus-visible {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-check {
+  display: flex;
+  min-height: 20px;
+  align-items: center;
+  gap: 6px;
+}
+
+.form-check-input {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  flex: 0 0 auto;
+  margin: 0;
+  border: 1px solid var(--input);
+  color: var(--primary-foreground);
+  background-color: transparent;
+  cursor: var(--cursor-interaction, default);
+  transition:
+    background-color 150ms,
+    border-color 150ms,
+    box-shadow 150ms;
+}
+
+.form-check:not(.form-switch) .form-check-input[type=&quot;checkbox&quot;] {
+  border-color: var(--input);
+  border-radius: var(--radius-sm);
+  corner-shape: superellipse(1.5);
+  background-color: var(--secondary);
+  box-shadow: var(--shadow-sm);
+}
+
+.form-check:not(.form-switch)
+  .form-check-input:not(:disabled):not(:checked):hover {
+  background-color: var(--card);
+}
+
+.form-check:not(.form-switch) .form-check-input[type=&quot;checkbox&quot;]:checked {
+  border-color: var(--primary);
+  background-color: var(--primary);
+}
+
+.form-check:not(.form-switch)
+  .form-check-input[type=&quot;checkbox&quot;]:checked::before {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--primary-foreground);
+  content: &quot;&quot;;
+  mask: var(--checkmark-image) center / 12px 12px no-repeat;
+}
+
+.form-check-input[type=&quot;radio&quot;] {
+  width: 14px;
+  height: 14px;
+  border-radius: var(--radius-full);
+}
+
+.form-check-input[type=&quot;radio&quot;]:checked {
+  border: 2px solid var(--primary);
+  background:
+    radial-gradient(circle, var(--primary-foreground) 0 2.5px, transparent 3px),
+    var(--primary);
+}
+
+.form-check:not(.form-switch) .form-check-input:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+.form-check:not(.form-switch) .form-check-input:disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.form-check:not(.form-switch) .form-check-input:disabled + .form-check-label {
+  cursor: not-allowed;
+}
+
+.form-switch .form-check-input:disabled,
+.form-switch .form-check-input:disabled + .form-check-label {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.form-check-label {
+  color: var(--foreground);
+  cursor: var(--cursor-interaction, default);
+}
+
+.form-switch .form-check-input {
+  position: relative;
+  width: 32px;
+  height: 20px;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: var(--muted);
+  box-shadow: none;
+  transition: background-color 200ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.form-switch .form-check-input::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+  border: 1px solid light-dark(var(--primary-foreground), var(--foreground));
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+  box-shadow: var(--shadow-sm);
+  content: &quot;&quot;;
+  transform: translate(2px, -50%);
+  transition: transform 200ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.form-switch .form-check-input:checked {
+  background: var(--primary);
+}
+
+.form-switch .form-check-input:checked::before {
+  transform: translate(14px, -50%);
+}
+
+.form-switch .form-check-input:focus-visible {
+  box-shadow: 0 0 0 2px var(--ring);
+}
+
+.form-range {
+  appearance: none;
+  display: block;
+  width: 100%;
+  height: 28px;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: 0;
+  accent-color: var(--primary);
+  background: linear-gradient(
+      color-mix(in srgb, var(--foreground) 7%, transparent),
+      color-mix(in srgb, var(--foreground) 7%, transparent)
+    )
+    center / 100% 2px no-repeat;
+}
+
+.form-range::-webkit-slider-runnable-track {
+  height: 28px;
+  background: transparent;
+}
+
+.form-range::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-top: 4px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+}
+
+.form-range:focus-visible::-webkit-slider-thumb {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-range::-moz-range-track {
+  height: 28px;
+  background: transparent;
+}
+
+.form-range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+}
+
+.form-range:focus-visible::-moz-range-thumb {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-range:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.btn:not(.btn-primary, .viz-tile):is(
+  [aria-pressed=&quot;true&quot;],
+  [aria-selected=&quot;true&quot;],
+  .is-selected
+) {
+  border-color: var(--primary);
+  color: var(--primary-foreground);
+  background: var(--primary);
+}
+
+.btn.viz-tile:is([aria-pressed=&quot;true&quot;], [aria-selected=&quot;true&quot;], .is-selected) {
+  border-color: var(--primary);
+  box-shadow: inset 0 0 0 1px var(--primary);
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#widget &gt; svg {
+  width: 100%;
+}
+
+/* Model-authored chart rules can otherwise stretch icons after these styles load. */
+svg.lucide {
+  display: block;
+  width: 16px !important;
+  height: 16px !important;
+  flex: none;
+  margin: 0 !important;
+  stroke-width: 1.6;
+}
+
+.text-warning,
+.text-destructive {
+  color: var(--destructive);
+}
+
+html&gt;body{padding:0}&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id=&quot;lidingo-passplan&quot;&gt;
+  &lt;style&gt;
+    #lidingo-passplan { width: 100%; color: var(--foreground); position: relative; }
+    #lidingo-passplan .lp-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+    #lidingo-passplan .lp-head h1 { margin: 0; }
+    #lidingo-passplan .lp-kicker { color: var(--muted-foreground); margin: .2rem 0 0; }
+    #lidingo-passplan .lp-brief { margin-bottom: 1rem; }
+    #lidingo-passplan .lp-brief h2 { margin-top: 0; }
+    #lidingo-passplan .lp-brief p { margin-bottom: 0; }
+    #lidingo-passplan .lp-stats { margin-bottom: 1rem; }
+    #lidingo-passplan .lp-map-wrap { width: 100%; min-height: 270px; }
+    #lidingo-passplan .lp-map { width: 100%; height: auto; display: block; }
+    #lidingo-passplan .lp-map .route-base { fill: none; stroke: var(--border); stroke-width: 2; opacity: .7; }
+    #lidingo-passplan .lp-map .phase { fill: none; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    #lidingo-passplan .lp-map .progressive { stroke: var(--viz-series-1); }
+    #lidingo-passplan .lp-map .recovery { stroke: var(--viz-series-2); }
+    #lidingo-passplan .lp-map .main-block { stroke: var(--viz-series-3); }
+    #lidingo-passplan .lp-map .loop { stroke: var(--viz-series-3); stroke-dasharray: 8 6; }
+    #lidingo-passplan .lp-map .marker { fill: var(--background); stroke-width: 3; }
+    #lidingo-passplan .lp-map .map-label { fill: var(--foreground); font-size: 12px; font-weight: 500; paint-order: stroke; stroke: var(--background); stroke-width: 5px; stroke-linejoin: round; }
+    #lidingo-passplan .lp-map .map-sub { fill: var(--muted-foreground); font-size: 11px; font-weight: 400; paint-order: stroke; stroke: var(--background); stroke-width: 4px; stroke-linejoin: round; }
+    #lidingo-passplan .lp-map g[data-marker] { pointer-events: none; }
+    #lidingo-passplan .lp-map .course-hit { fill: none; stroke: transparent; stroke-width: 22; cursor: crosshair; pointer-events: stroke; }
+    #lidingo-passplan .lp-legend { display: flex; flex-wrap: wrap; gap: .55rem 1rem; margin: .6rem 0 .35rem; }
+    #lidingo-passplan .lp-legend-item { display: inline-flex; gap: .4rem; align-items: center; }
+    #lidingo-passplan .lp-line { width: 1.6rem; height: .28rem; border-radius: 999px; background: var(--viz-series-1); }
+    #lidingo-passplan .lp-line.recovery-key { background: var(--viz-series-2); }
+    #lidingo-passplan .lp-line.main-key { background: var(--viz-series-3); }
+    #lidingo-passplan .lp-line.loop-key { background: repeating-linear-gradient(90deg, var(--viz-series-3) 0 7px, transparent 7px 11px); }
+    #lidingo-passplan .lp-note { color: var(--muted-foreground); margin: 0; }
+    #lidingo-passplan .lp-course-detail { display: flex; justify-content: space-between; gap: 1rem; align-items: center; margin-top: .8rem; }
+    #lidingo-passplan .lp-course-detail strong { display: block; font-weight: 500; }
+    #lidingo-passplan .lp-course-detail p { margin: 0; text-align: right; }
+    #lidingo-passplan .lp-profile-wrap { width: 100%; min-height: 230px; }
+    #lidingo-passplan .lp-profile { width: 100%; height: auto; display: block; }
+    #lidingo-passplan .lp-profile .chart-frame { fill: none; stroke: var(--border); stroke-width: 1; }
+    #lidingo-passplan .lp-profile .profile-area { fill: var(--viz-series-1); opacity: .1; }
+    #lidingo-passplan .lp-profile .profile-base { fill: none; stroke: var(--border); stroke-width: 2; }
+    #lidingo-passplan .lp-profile .profile-phase { fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    #lidingo-passplan .lp-profile .profile-progressive { stroke: var(--viz-series-1); }
+    #lidingo-passplan .lp-profile .profile-recovery { stroke: var(--viz-series-2); }
+    #lidingo-passplan .lp-profile .profile-main { stroke: var(--viz-series-3); }
+    #lidingo-passplan .lp-profile .axis text,
+    #lidingo-passplan .lp-profile .axis-title { fill: var(--foreground); font-size: 12px; }
+    #lidingo-passplan .lp-profile .axis path,
+    #lidingo-passplan .lp-profile .axis line { stroke: var(--border); }
+    #lidingo-passplan .lp-profile .profile-guide { stroke: var(--foreground); stroke-width: 1; pointer-events: none; }
+    #lidingo-passplan .lp-profile .profile-dot { fill: var(--background); stroke: var(--foreground); stroke-width: 2; pointer-events: none; }
+    #lidingo-passplan .lp-profile .profile-hit { fill: transparent; cursor: crosshair; }
+    #lidingo-passplan .lp-tooltip { position: absolute; z-index: 20; pointer-events: none; max-width: 16rem; padding: .55rem .7rem; color: var(--popover-foreground); background: var(--popover); border: 1px solid var(--border); border-radius: .5rem; }
+    #lidingo-passplan .lp-tooltip strong,
+    #lidingo-passplan .lp-tooltip span { display: block; }
+    #lidingo-passplan .lp-tooltip strong { font-weight: 500; }
+    #lidingo-passplan .lp-tooltip span { color: var(--muted-foreground); }
+    #lidingo-passplan .lp-section { margin-top: 1.4rem; }
+    #lidingo-passplan .lp-section h2 { margin-bottom: .7rem; }
+    #lidingo-passplan .lp-km-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: .45rem; }
+    #lidingo-passplan .lp-km { text-align: center; padding: .55rem .25rem; border-top: 4px solid var(--viz-series-1); }
+    #lidingo-passplan .lp-km span { display: block; color: var(--muted-foreground); }
+    #lidingo-passplan .lp-km strong { display: block; font-weight: 500; font-variant-numeric: tabular-nums; }
+    #lidingo-passplan .lp-transition { display: flex; gap: .7rem; align-items: baseline; flex-wrap: wrap; margin-top: .75rem; padding-left: .65rem; border-left: 4px solid var(--viz-series-2); }
+    #lidingo-passplan .lp-transition strong { font-weight: 500; }
+    #lidingo-passplan .lp-runner-controls { margin-bottom: .7rem; }
+    #lidingo-passplan .lp-runner-detail { min-height: 7rem; }
+    #lidingo-passplan .lp-detail-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 1rem; align-items: start; }
+    #lidingo-passplan .lp-detail-grid h3 { margin-top: 0; }
+    #lidingo-passplan .lp-detail-grid p { margin: .3rem 0; }
+    #lidingo-passplan .lp-block-rail { height: .45rem; background: var(--muted); overflow: hidden; margin: .6rem 0 .35rem; }
+    #lidingo-passplan .lp-block-rail &gt; span { display: block; width: 87.6%; height: 100%; background: var(--viz-series-3); }
+    #lidingo-passplan .lp-actions { margin-top: 1rem; }
+    #lidingo-passplan #copy-status { min-height: 1.4em; color: var(--muted-foreground); }
+    @media (max-width: 560px) {
+      #lidingo-passplan .lp-km-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+      #lidingo-passplan .lp-detail-grid { grid-template-columns: 1fr; }
+      #lidingo-passplan .lp-course-detail { display: block; }
+      #lidingo-passplan .lp-course-detail p { text-align: left; margin-top: .35rem; }
+    }
+  &lt;/style&gt;
+
+  &lt;div class=&quot;lp-head&quot;&gt;
+    &lt;div&gt;
+      &lt;h1&gt;Långpass på Lidingöloppsbanan&lt;/h1&gt;
+      &lt;p class=&quot;lp-kicker&quot;&gt;Lördag 29 augusti · start 11:00 på Koltorps gärde&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; id=&quot;copy-plan&quot;&gt;&lt;i data-lucide=&quot;copy&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Kopiera passplan&lt;/button&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;card lp-brief&quot;&gt;
+    &lt;h2&gt;Så kör vi passet&lt;/h2&gt;
+    &lt;p&gt;Vi startar tillsammans 11:00. Först 7 km progressivt och 1 km kontrollerad återhämtning, sedan kör alla sin individuella fartplan i huvudblocket och avslutar vid Grönsta.&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;viz-grid lp-stats&quot;&gt;
+    &lt;div class=&quot;card viz-stat&quot;&gt;
+      &lt;div class=&quot;text-muted&quot;&gt;Total sträcka&lt;/div&gt;
+      &lt;div class=&quot;viz-stat-value&quot;&gt;21,7 km&lt;/div&gt;
+      &lt;div class=&quot;text-small&quot;&gt;7 + 1 + 13,7 km&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card viz-stat&quot;&gt;
+      &lt;div class=&quot;text-muted&quot;&gt;Gemensam start&lt;/div&gt;
+      &lt;div class=&quot;viz-stat-value&quot;&gt;11:00&lt;/div&gt;
+      &lt;div class=&quot;text-small&quot;&gt;Lördag · Koltorps gärde&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card viz-stat&quot;&gt;
+      &lt;div class=&quot;text-muted&quot;&gt;Huvudblock&lt;/div&gt;
+      &lt;div class=&quot;viz-stat-value&quot;&gt;13,7 km&lt;/div&gt;
+      &lt;div class=&quot;text-small&quot;&gt;12 km till Grönsta + 1,7 km loop&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;lp-map-wrap&quot;&gt;
+    &lt;svg class=&quot;lp-map&quot; role=&quot;img&quot; aria-labelledby=&quot;lp-map-title lp-map-desc&quot;&gt;
+      &lt;title id=&quot;lp-map-title&quot;&gt;Passets sträckning på Lidingöloppets 30-kilometersbana&lt;/title&gt;
+      &lt;desc id=&quot;lp-map-desc&quot;&gt;Start på Koltorps gärde, sju kilometer progressivt, en kilometer återhämtning, tolv kilometer huvudblock till Grönsta och därefter en schematisk 1,7-kilometersloop vid Grönsta.&lt;/desc&gt;
+    &lt;/svg&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;lp-legend text-small&quot; aria-label=&quot;Kartförklaring&quot;&gt;
+    &lt;span class=&quot;lp-legend-item&quot;&gt;&lt;span class=&quot;lp-line&quot;&gt;&lt;/span&gt;0–7 km progressivt&lt;/span&gt;
+    &lt;span class=&quot;lp-legend-item&quot;&gt;&lt;span class=&quot;lp-line recovery-key&quot;&gt;&lt;/span&gt;7–8 km återhämtning&lt;/span&gt;
+    &lt;span class=&quot;lp-legend-item&quot;&gt;&lt;span class=&quot;lp-line main-key&quot;&gt;&lt;/span&gt;8–20 km huvudblock&lt;/span&gt;
+    &lt;span class=&quot;lp-legend-item&quot;&gt;&lt;span class=&quot;lp-line loop-key&quot;&gt;&lt;/span&gt;1,7 km Grönstaloop&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;p class=&quot;lp-note text-small&quot;&gt;Heldragen geometri följer Lidingöloppets officiella GPX. Den streckade Grönstaloopen är schematisk – bekräfta vänstersvängen före start.&lt;/p&gt;
+  &lt;div class=&quot;card lp-course-detail&quot; aria-live=&quot;polite&quot;&gt;
+    &lt;div&gt;&lt;span class=&quot;text-small text-muted&quot;&gt;Aktiv del&lt;/span&gt;&lt;strong id=&quot;course-detail-title&quot;&gt;Blå progression · 0–7 km&lt;/strong&gt;&lt;/div&gt;
+    &lt;p id=&quot;course-detail-body&quot;&gt;Dra över eller tryck på banan för att se fart och banhöjd.&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;section class=&quot;lp-section&quot; aria-labelledby=&quot;profile-title&quot;&gt;
+    &lt;h2 id=&quot;profile-title&quot;&gt;Höjdprofil · 0–20 km&lt;/h2&gt;
+    &lt;div class=&quot;lp-profile-wrap&quot;&gt;
+      &lt;svg class=&quot;lp-profile&quot; role=&quot;img&quot; aria-labelledby=&quot;lp-profile-svg-title lp-profile-svg-desc&quot;&gt;
+        &lt;title id=&quot;lp-profile-svg-title&quot;&gt;Interaktiv höjdprofil för passet fram till Grönsta&lt;/title&gt;
+        &lt;desc id=&quot;lp-profile-svg-desc&quot;&gt;Höjd över havet längs passets första tjugo kilometer, färgindelad efter progression, återhämtning och huvudblock.&lt;/desc&gt;
+      &lt;/svg&gt;
+    &lt;/div&gt;
+    &lt;p class=&quot;lp-note text-small&quot;&gt;Dra över profilen för exakt kilometer, höjd och aktuell fartdel.&lt;/p&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;lp-section&quot; aria-labelledby=&quot;progression-title&quot;&gt;
+    &lt;h2 id=&quot;progression-title&quot;&gt;Fartplan · första 8 km&lt;/h2&gt;
+    &lt;h3&gt;Progressivt · 5:30 → 4:30/km&lt;/h3&gt;
+    &lt;div class=&quot;lp-km-grid&quot; aria-label=&quot;Progressiv fart kilometer för kilometer&quot;&gt;
+      &lt;div class=&quot;lp-km&quot;&gt;&lt;span&gt;Km 1&lt;/span&gt;&lt;strong class=&quot;viz-stat-value&quot;&gt;5:30&lt;/strong&gt;&lt;/div&gt;
+      &lt;div class=&quot;lp-km&quot;&gt;&lt;span&gt;Km 2&lt;/span&gt;&lt;strong class=&quot;viz-stat-value&quot;&gt;5:20&lt;/strong&gt;&lt;/div&gt;
+      &lt;div class=&quot;lp-km&quot;&gt;&lt;span&gt;Km 3&lt;/span&gt;&lt;strong class=&quot;viz-stat-value&quot;&gt;5:10&lt;/strong&gt;&lt;/div&gt;
+      &lt;div class=&quot;lp-km&quot;&gt;&lt;span&gt;Km 4&lt;/span&gt;&lt;strong class=&quot;viz-stat-value&quot;&gt;5:00&lt;/strong&gt;&lt;/div&gt;
+      &lt;div class=&quot;lp-km&quot;&gt;&lt;span&gt;Km 5&lt;/span&gt;&lt;strong class=&quot;viz-stat-value&quot;&gt;4:50&lt;/strong&gt;&lt;/div&gt;
+      &lt;div class=&quot;lp-km&quot;&gt;&lt;span&gt;Km 6&lt;/span&gt;&lt;strong class=&quot;viz-stat-value&quot;&gt;4:40&lt;/strong&gt;&lt;/div&gt;
+      &lt;div class=&quot;lp-km&quot;&gt;&lt;span&gt;Km 7&lt;/span&gt;&lt;strong class=&quot;viz-stat-value&quot;&gt;4:30&lt;/strong&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;lp-transition&quot;&gt;&lt;strong&gt;Km 8 · återhämtning/förberedelse&lt;/strong&gt;&lt;span&gt;4:40–5:00/km&lt;/span&gt;&lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;lp-section&quot; aria-labelledby=&quot;runner-title&quot;&gt;
+    &lt;h2 id=&quot;runner-title&quot;&gt;Huvudblocket · välj löpare&lt;/h2&gt;
+    &lt;div class=&quot;viz-controls lp-runner-controls&quot; role=&quot;group&quot; aria-label=&quot;Välj löpare&quot;&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-runner=&quot;alla&quot; aria-pressed=&quot;true&quot;&gt;Alla&lt;/button&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-runner=&quot;du&quot; aria-pressed=&quot;false&quot;&gt;Du&lt;/button&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-runner=&quot;johan&quot; aria-pressed=&quot;false&quot;&gt;Johan&lt;/button&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn&quot; data-runner=&quot;niklas&quot; aria-pressed=&quot;false&quot;&gt;Niklas&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card lp-runner-detail&quot; aria-live=&quot;polite&quot;&gt;
+      &lt;div class=&quot;lp-detail-grid&quot;&gt;
+        &lt;div&gt;
+          &lt;h3 id=&quot;runner-name&quot;&gt;Tre löpare · samma bana&lt;/h3&gt;
+          &lt;p id=&quot;runner-plan&quot;&gt;Starta huvudblocket efter 8 km. Kör individuell plan i 12 km fram till Grönsta och avsluta med den gemensamma 1,7 km-loopen.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;p class=&quot;text-muted&quot; id=&quot;runner-pace-label&quot;&gt;Fartplan&lt;/p&gt;
+          &lt;p id=&quot;runner-pace&quot;&gt;Du: 1 km på / 30 s flyt · Johan: 4:00/km · Niklas: 4:10/km&lt;/p&gt;
+          &lt;div class=&quot;lp-block-rail&quot; role=&quot;progressbar&quot; aria-label=&quot;Andel av huvudblocket till Grönsta&quot; aria-valuenow=&quot;12&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;13.7&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/div&gt;
+          &lt;p class=&quot;text-small text-muted&quot;&gt;Grönsta efter 12,0 av 13,7 km&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;div class=&quot;lp-actions&quot; aria-live=&quot;polite&quot;&gt;&lt;span id=&quot;copy-status&quot; class=&quot;text-small&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+  &lt;div class=&quot;lp-tooltip text-small&quot; id=&quot;lp-tooltip&quot; role=&quot;tooltip&quot; hidden&gt;&lt;strong&gt;&lt;/strong&gt;&lt;span&gt;&lt;/span&gt;&lt;/div&gt;
+
+  &lt;script src=&quot;https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    (() =&gt; {
+      const root = document.getElementById(&#x27;lidingo-passplan&#x27;);
+      const route = [[18.17645,59.35983,0,26],[18.18172,59.35904,0.31,27],[18.18258,59.35792,0.46,31],[18.18315,59.35652,0.62,30],[18.18011,59.35516,0.87,29],[18.17792,59.3544,1.07,24],[18.17827,59.3528,1.25,29],[18.18052,59.3514,1.47,32],[18.18234,59.35059,1.62,26],[18.18728,59.35071,1.93,29],[18.1897,59.35104,2.08,28],[18.19124,59.35208,2.25,28],[18.19482,59.35166,2.46,24],[18.19912,59.35184,2.72,22],[18.19901,59.35346,2.9,32],[18.19756,59.35464,3.06,34],[18.19462,59.35511,3.25,32],[18.19424,59.35678,3.44,24],[18.19658,59.35759,3.6,29],[18.20003,59.357,3.82,30],[18.20323,59.35611,4.03,34],[18.20576,59.35568,4.19,39],[18.20489,59.35756,4.41,47],[18.20433,59.3591,4.59,48],[18.20223,59.3593,4.74,45],[18.19942,59.3597,4.93,39],[18.19694,59.35971,5.08,37],[18.19459,59.35945,5.23,33],[18.19274,59.35973,5.39,22],[18.19215,59.3609,5.54,8],[18.19001,59.36128,5.69,8],[18.18767,59.36117,5.85,12],[18.18677,59.36226,6,8],[18.18448,59.36284,6.15,13],[18.18202,59.36335,6.31,20],[18.17935,59.3631,6.46,31],[18.17712,59.36377,6.62,21],[18.17468,59.36354,6.79,23],[18.172,59.36431,6.97,20],[18.1712,59.36426,7.01,21],[18.1694,59.36463,7.12,21],[18.1665,59.36521,7.3,15],[18.16497,59.36623,7.46,6],[18.16224,59.36686,7.63,8],[18.15934,59.36688,7.79,8],[18.15684,59.36763,7.96,8],[18.15623,59.36794,8.01,7],[18.15825,59.3696,8.24,7],[18.16105,59.36955,8.4,6],[18.16361,59.36895,8.56,6],[18.16588,59.36843,8.71,9],[18.16901,59.36775,8.9,13],[18.17191,59.3671,9.09,10],[18.17569,59.36646,9.32,10],[18.17864,59.36615,9.49,9],[18.18101,59.36599,9.64,8],[18.18582,59.36574,9.92,7],[18.18584,59.36709,10.07,9],[18.18466,59.36836,10.23,13],[18.18582,59.36966,10.43,23],[18.18828,59.36959,10.58,22],[18.19062,59.37037,10.74,29],[18.19294,59.37079,10.9,28],[18.19484,59.37163,11.05,27],[18.19575,59.37282,11.22,30],[18.19841,59.3728,11.4,31],[18.20186,59.37188,11.62,30],[18.20463,59.37201,11.78,36],[18.20696,59.37241,11.94,42],[18.20945,59.37205,12.09,42],[18.21048,59.37363,12.3,40],[18.2104,59.37475,12.48,36],[18.21193,59.37377,12.65,38],[18.21466,59.37314,12.85,40],[18.21761,59.37184,13.07,40],[18.21976,59.37107,13.22,37],[18.22146,59.37197,13.39,42],[18.22382,59.37253,13.55,43],[18.22627,59.37305,13.72,42],[18.22757,59.37175,13.88,42],[18.23094,59.37092,14.1,40],[18.2338,59.37006,14.29,35],[18.23762,59.36981,14.51,34],[18.24031,59.36999,14.67,40],[18.24088,59.37071,14.83,44],[18.23916,59.37205,15.02,42],[18.23693,59.37305,15.19,39],[18.23589,59.37437,15.36,37],[18.23262,59.37452,15.56,35],[18.23005,59.3752,15.73,33],[18.22735,59.37518,15.9,37],[18.22471,59.37506,16.07,40],[18.22203,59.37411,16.26,45],[18.21897,59.37385,16.44,46],[18.21705,59.37494,16.62,42],[18.21504,59.37606,16.8,31],[18.21217,59.37638,16.96,27],[18.20988,59.37584,17.12,32],[18.20647,59.37564,17.33,32],[18.20363,59.37574,17.5,29],[18.2012,59.3759,17.68,31],[18.19874,59.37676,17.85,22],[18.19619,59.37646,18.01,26],[18.19376,59.37659,18.18,17],[18.19068,59.37654,18.35,23],[18.188,59.37686,18.52,24],[18.1857,59.37705,18.67,27],[18.18304,59.37695,18.83,29],[18.17892,59.377,19.07,29],[18.17618,59.37725,19.23,25],[18.17401,59.37682,19.4,28],[18.17073,59.37664,19.6,33],[18.16896,59.37773,19.76,25],[18.16608,59.37817,19.94,29],[18.16455,59.37823,20.03,30],[18.16352,59.37787,20.1,29],[18.16168,59.37851,20.26,20],[18.15901,59.37916,20.46,18],[18.15597,59.37886,20.65,22],[18.15517,59.38004,20.8,32],[18.15386,59.38128,20.96,40],[18.15106,59.38173,21.14,43],[18.14945,59.38264,21.3,40],[18.14692,59.38307,21.46,42],[18.14466,59.38323,21.63,43],[18.14428,59.38453,21.78,35],[18.14254,59.38563,21.95,35],[18.13954,59.38601,22.13,43],[18.13651,59.38614,22.3,46],[18.13383,59.3865,22.47,50],[18.13148,59.38616,22.62,49],[18.12874,59.38632,22.78,43],[18.12592,59.38667,22.96,39],[18.12339,59.38768,23.14,33],[18.12188,59.38882,23.3,24],[18.11943,59.38896,23.46,17],[18.1162,59.38926,23.64,18],[18.11366,59.38975,23.8,9],[18.11146,59.38914,23.96,16],[18.10958,59.38989,24.12,15],[18.10682,59.39017,24.28,18],[18.10426,59.38991,24.44,18],[18.10214,59.38902,24.6,21],[18.10118,59.38781,24.76,18],[18.09965,59.38656,24.94,13],[18.09739,59.38578,25.1,17],[18.0976,59.38468,25.26,34],[18.09822,59.38339,25.45,46],[18.10042,59.38245,25.62,52],[18.10245,59.38163,25.78,44],[18.10367,59.38045,25.94,37],[18.10494,59.37917,26.1,42],[18.10655,59.37806,26.26,40],[18.10989,59.37725,26.48,44],[18.11268,59.37719,26.64,51],[18.11571,59.37731,26.82,55],[18.118,59.37649,26.98,50],[18.1207,59.37623,27.14,44],[18.12262,59.37529,27.3,28],[18.12442,59.37414,27.5,23],[18.12719,59.37425,27.66,19],[18.13012,59.37398,27.83,20],[18.13256,59.37348,27.98,17],[18.13357,59.37299,28.14,14],[18.13477,59.37431,28.31,18],[18.13456,59.37556,28.46,32],[18.13552,59.37666,28.62,37],[18.13666,59.37771,28.78,35],[18.13957,59.37754,28.94,39],[18.14235,59.37723,29.11,47],[18.145,59.37715,29.26,46],[18.14407,59.37826,29.44,43],[18.14281,59.37955,29.61,42],[18.14544,59.37942,29.77,39],[18.14777,59.37879,29.92,36],[18.14884,59.37851,29.99,34],[18.15025,59.37828,30.08,30],[18.1532,59.37779,30.26,23],[18.1543,59.37777,30.32,20]];
+
+      const runners = {
+        alla: {
+          name: &#x27;Tre löpare · samma bana&#x27;,
+          plan: &#x27;Starta huvudblocket efter 8 km. Kör individuell plan i 12 km fram till Grönsta och avsluta med den gemensamma 1,7 km-loopen.&#x27;,
+          label: &#x27;Fartplan&#x27;,
+          pace: &#x27;Du: 1 km på / 30 s flyt · Johan: 4:00/km · Niklas: 4:10/km&#x27;
+        },
+        du: {
+          name: &#x27;Din plan · växlande fart&#x27;,
+          plan: &#x27;Upprepa 1 km på följt av 30 sekunder flytfart utan stopp genom hela huvudblocket. Håll flytfarten konstant.&#x27;,
+          label: &#x27;Struktur&#x27;,
+          pace: &#x27;1 km på / 30 s flyt · hårdfart och flytfart fylls i på plats&#x27;
+        },
+        johan: {
+          name: &#x27;Johan Persson · jämn fart&#x27;,
+          plan: &#x27;Håll 4:00/km rakt igenom hela huvudblocket, inklusive den avslutande Grönstaloopen.&#x27;,
+          label: &#x27;Målfart · blocktid&#x27;,
+          pace: &#x27;4:00/km · cirka 54:48 för 13,7 km&#x27;
+        },
+        niklas: {
+          name: &#x27;Niklas · jämn fart&#x27;,
+          plan: &#x27;Håll 4:10/km rakt igenom hela huvudblocket, inklusive den avslutande Grönstaloopen.&#x27;,
+          label: &#x27;Målfart · blocktid&#x27;,
+          pace: &#x27;4:10/km · cirka 57:05 för 13,7 km&#x27;
+        }
+      };
+      const progressivePaces = [&#x27;5:30&#x27;,&#x27;5:20&#x27;,&#x27;5:10&#x27;,&#x27;5:00&#x27;,&#x27;4:50&#x27;,&#x27;4:40&#x27;,&#x27;4:30&#x27;];
+      let currentRunner = &#x27;alla&#x27;;
+
+      const mainPace = () =&gt; ({
+        alla: &#x27;Du: 1 km på / 30 s flyt · Johan: 4:00/km · Niklas: 4:10/km&#x27;,
+        du: &#x27;1 km på / 30 s konstant flytfart&#x27;,
+        johan: &#x27;4:00/km jämnt&#x27;,
+        niklas: &#x27;4:10/km jämnt&#x27;
+      })[currentRunner];
+
+      const updateCourseDetail = (title, body) =&gt; {
+        root.querySelector(&#x27;#course-detail-title&#x27;).textContent = title;
+        root.querySelector(&#x27;#course-detail-body&#x27;).textContent = body;
+      };
+
+      const showTooltip = (event, info) =&gt; {
+        const tooltip = root.querySelector(&#x27;#lp-tooltip&#x27;);
+        tooltip.querySelector(&#x27;strong&#x27;).textContent = info.title;
+        tooltip.querySelector(&#x27;span&#x27;).textContent = info.body;
+        tooltip.hidden = false;
+        const rootRect = root.getBoundingClientRect();
+        const tipRect = tooltip.getBoundingClientRect();
+        const wantedLeft = event.clientX - rootRect.left + 14;
+        const wantedTop = event.clientY - rootRect.top + 14;
+        const left = Math.max(8, Math.min(wantedLeft, rootRect.width - tipRect.width - 8));
+        const top = Math.max(8, wantedTop);
+        tooltip.style.left = `${left}px`;
+        tooltip.style.top = `${top}px`;
+        updateCourseDetail(info.title, info.body);
+      };
+
+      const hideTooltip = () =&gt; {
+        root.querySelector(&#x27;#lp-tooltip&#x27;).hidden = true;
+      };
+
+      const interpolate = (distance) =&gt; {
+        const i = d3.bisector(d =&gt; d[2]).left(route, distance);
+        if (i &lt;= 0) return route[0];
+        if (i &gt;= route.length) return route[route.length - 1];
+        const a = route[i - 1], b = route[i];
+        const t = (distance - a[2]) / (b[2] - a[2]);
+        return [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t, distance, a[3] + (b[3] - a[3]) * t];
+      };
+
+      const segment = (from, to) =&gt; [interpolate(from), ...route.filter(d =&gt; d[2] &gt; from &amp;&amp; d[2] &lt; to), interpolate(to)];
+      const gronsta = interpolate(20);
+      const loopOut = segment(20, 20.84);
+      const loop = [...loopOut, [18.1541,59.38045], [18.1569,59.37925], [18.1605,59.37772], [gronsta[0],gronsta[1]]];
+      const mapFeature = { type: &#x27;Feature&#x27;, geometry: { type: &#x27;LineString&#x27;, coordinates: route.map(d =&gt; [d[0], d[1]]) } };
+
+      const infoForDistance = (distance) =&gt; {
+        const point = interpolate(distance);
+        const height = `${Math.round(point[3])} m ö.h.`;
+        if (distance &lt; 7) {
+          const km = Math.min(6, Math.floor(distance));
+          return { title: `Km ${km + 1} · ${progressivePaces[km]}/km`, body: `Progressivt · banhöjd cirka ${height}` };
+        }
+        if (distance &lt; 8) return { title: &#x27;Km 8 · 4:40–5:00/km&#x27;, body: `Återhämtning/förberedelse · banhöjd cirka ${height}` };
+        return { title: `Km ${Math.min(20, Math.floor(distance) + 1)} · huvudblock`, body: `${mainPace()} · banhöjd cirka ${height}` };
+      };
+
+      const infoForSpan = (item) =&gt; {
+        if (item.kind === &#x27;loop&#x27;) return { title: &#x27;Grönstaloop · 1,7 km&#x27;, body: `Uppför, vänster och tillbaka · ${mainPace()} · schematisk sträckning` };
+        const midpoint = (item.from + item.to) / 2;
+        return infoForDistance(midpoint);
+      };
+
+      const drawMap = () =&gt; {
+        const svg = d3.select(root.querySelector(&#x27;.lp-map&#x27;));
+        svg.selectAll(&#x27;g[data-map-layer]&#x27;).remove();
+        const width = Math.max(320, root.querySelector(&#x27;.lp-map-wrap&#x27;).clientWidth);
+        const height = width &lt; 500 ? Math.round(width * .78) : Math.round(width * .53);
+        svg.attr(&#x27;viewBox&#x27;, `0 0 ${width} ${height}`);
+        const projection = d3.geoMercator().fitExtent([[26, 24], [width - 26, height - 28]], mapFeature);
+        const line = d3.line().x(d =&gt; projection([d[0], d[1]])[0]).y(d =&gt; projection([d[0], d[1]])[1]).curve(d3.curveLinear);
+        const layer = svg.append(&#x27;g&#x27;).attr(&#x27;data-map-layer&#x27;, &#x27;true&#x27;);
+        layer.append(&#x27;path&#x27;).attr(&#x27;class&#x27;, &#x27;route-base&#x27;).attr(&#x27;d&#x27;, line(route));
+        layer.append(&#x27;path&#x27;).attr(&#x27;class&#x27;, &#x27;phase progressive&#x27;).attr(&#x27;d&#x27;, line(segment(0, 7)));
+        layer.append(&#x27;path&#x27;).attr(&#x27;class&#x27;, &#x27;phase recovery&#x27;).attr(&#x27;d&#x27;, line(segment(7, 8)));
+        layer.append(&#x27;path&#x27;).attr(&#x27;class&#x27;, &#x27;phase main-block&#x27;).attr(&#x27;d&#x27;, line(segment(8, 20)));
+        layer.append(&#x27;path&#x27;).attr(&#x27;class&#x27;, &#x27;phase loop&#x27;).attr(&#x27;d&#x27;, line(loop));
+
+        const hoverSegments = [];
+        for (let km = 0; km &lt; 7; km += 1) hoverSegments.push({ from: km, to: km + 1, kind: &#x27;progressive&#x27; });
+        hoverSegments.push({ from: 7, to: 8, kind: &#x27;recovery&#x27; });
+        for (let km = 8; km &lt; 20; km += 1) hoverSegments.push({ from: km, to: km + 1, kind: &#x27;main&#x27; });
+        hoverSegments.push({ kind: &#x27;loop&#x27;, coords: loop });
+        layer.selectAll(&#x27;path[data-course-hit]&#x27;).data(hoverSegments).enter().append(&#x27;path&#x27;)
+          .attr(&#x27;class&#x27;, &#x27;course-hit&#x27;)
+          .attr(&#x27;data-course-hit&#x27;, &#x27;true&#x27;)
+          .attr(&#x27;d&#x27;, item =&gt; line(item.coords || segment(item.from, item.to)))
+          .on(&#x27;pointermove&#x27;, (event, item) =&gt; showTooltip(event, infoForSpan(item)))
+          .on(&#x27;pointerdown&#x27;, (event, item) =&gt; showTooltip(event, infoForSpan(item)))
+          .on(&#x27;mousemove&#x27;, (event, item) =&gt; showTooltip(event, infoForSpan(item)))
+          .on(&#x27;click&#x27;, (event, item) =&gt; showTooltip(event, infoForSpan(item)))
+          .on(&#x27;pointerleave&#x27;, hideTooltip)
+          .on(&#x27;mouseleave&#x27;, hideTooltip);
+
+        const narrow = width &lt; 480;
+        const marks = [
+          { d: 0, title: &#x27;START&#x27;, sub: narrow ? &#x27;&#x27; : &#x27;Koltorps gärde&#x27;, color: &#x27;var(--viz-series-1)&#x27;, dx: 10, dy: narrow ? 20 : -10, anchor: &#x27;start&#x27; },
+          { d: 7, title: narrow ? &#x27;7&#x27; : &#x27;7 KM&#x27;, sub: &#x27;&#x27;, color: &#x27;var(--viz-series-2)&#x27;, dx: -16, dy: narrow ? 3 : -12, anchor: &#x27;end&#x27; },
+          { d: 8, title: narrow ? &#x27;8&#x27; : &#x27;8 KM&#x27;, sub: &#x27;&#x27;, color: &#x27;var(--viz-series-3)&#x27;, dx: -16, dy: narrow ? 20 : 24, anchor: &#x27;end&#x27; },
+          { d: 20, title: &#x27;GRÖNSTA&#x27;, sub: narrow ? &#x27;12 km + loop 1,7&#x27; : &#x27;12 km hårt · loop +1,7&#x27;, color: &#x27;var(--viz-series-3)&#x27;, dx: -10, dy: -12, anchor: &#x27;end&#x27; }
+        ];
+        const mg = layer.selectAll(&#x27;g[data-marker]&#x27;).data(marks).enter().append(&#x27;g&#x27;).attr(&#x27;data-marker&#x27;, &#x27;true&#x27;);
+        mg.attr(&#x27;transform&#x27;, m =&gt; { const p = projection(interpolate(m.d).slice(0, 2)); return `translate(${p[0]},${p[1]})`; });
+        mg.append(&#x27;circle&#x27;).attr(&#x27;class&#x27;, &#x27;marker&#x27;).attr(&#x27;r&#x27;, 5).attr(&#x27;stroke&#x27;, m =&gt; m.color);
+        mg.append(&#x27;text&#x27;).attr(&#x27;class&#x27;, &#x27;map-label&#x27;).attr(&#x27;x&#x27;, m =&gt; m.dx).attr(&#x27;y&#x27;, m =&gt; m.dy).attr(&#x27;text-anchor&#x27;, m =&gt; m.anchor).text(m =&gt; m.title);
+        mg.filter(m =&gt; m.sub).append(&#x27;text&#x27;).attr(&#x27;class&#x27;, &#x27;map-sub&#x27;).attr(&#x27;x&#x27;, m =&gt; m.dx).attr(&#x27;y&#x27;, m =&gt; m.dy + 15).attr(&#x27;text-anchor&#x27;, m =&gt; m.anchor).text(m =&gt; m.sub);
+      };
+
+      const drawProfile = () =&gt; {
+        const svg = d3.select(root.querySelector(&#x27;.lp-profile&#x27;));
+        svg.selectAll(&#x27;g[data-profile-layer]&#x27;).remove();
+        const width = Math.max(320, root.querySelector(&#x27;.lp-profile-wrap&#x27;).clientWidth);
+        const height = width &lt; 500 ? 245 : 275;
+        const margin = { top: 16, right: 18, bottom: 52, left: 64 };
+        const plotWidth = width - margin.left - margin.right;
+        const plotHeight = height - margin.top - margin.bottom;
+        const workout = segment(0, 20);
+        const elevationExtent = d3.extent(workout, d =&gt; d[3]);
+        const elevationPadding = Math.max(3, (elevationExtent[1] - elevationExtent[0]) * .08);
+        const x = d3.scaleLinear().domain([0, 20]).range([margin.left, margin.left + plotWidth]);
+        const y = d3.scaleLinear().domain([elevationExtent[0] - elevationPadding, elevationExtent[1] + elevationPadding]).nice().range([margin.top + plotHeight, margin.top]);
+        const line = d3.line().x(d =&gt; x(d[2])).y(d =&gt; y(d[3])).curve(d3.curveMonotoneX);
+        const area = d3.area().x(d =&gt; x(d[2])).y0(margin.top + plotHeight).y1(d =&gt; y(d[3])).curve(d3.curveMonotoneX);
+        svg.attr(&#x27;viewBox&#x27;, `0 0 ${width} ${height}`);
+        const layer = svg.append(&#x27;g&#x27;).attr(&#x27;data-profile-layer&#x27;, &#x27;true&#x27;);
+        layer.append(&#x27;rect&#x27;).attr(&#x27;class&#x27;, &#x27;chart-frame&#x27;).attr(&#x27;data-chart-frame&#x27;, &#x27;true&#x27;).attr(&#x27;x&#x27;, margin.left).attr(&#x27;y&#x27;, margin.top).attr(&#x27;width&#x27;, plotWidth).attr(&#x27;height&#x27;, plotHeight);
+        layer.append(&#x27;path&#x27;).datum(workout).attr(&#x27;class&#x27;, &#x27;profile-area&#x27;).attr(&#x27;d&#x27;, area);
+        layer.append(&#x27;path&#x27;).datum(workout).attr(&#x27;class&#x27;, &#x27;profile-base&#x27;).attr(&#x27;d&#x27;, line);
+        layer.append(&#x27;path&#x27;).datum(segment(0, 7)).attr(&#x27;class&#x27;, &#x27;profile-phase profile-progressive&#x27;).attr(&#x27;d&#x27;, line);
+        layer.append(&#x27;path&#x27;).datum(segment(7, 8)).attr(&#x27;class&#x27;, &#x27;profile-phase profile-recovery&#x27;).attr(&#x27;d&#x27;, line);
+        layer.append(&#x27;path&#x27;).datum(segment(8, 20)).attr(&#x27;class&#x27;, &#x27;profile-phase profile-main&#x27;).attr(&#x27;d&#x27;, line);
+
+        const xAxis = width &lt; 500 ? d3.axisBottom(x).tickValues([0, 5, 10, 20]) : d3.axisBottom(x).ticks(6);
+        layer.append(&#x27;g&#x27;).attr(&#x27;class&#x27;, &#x27;axis&#x27;).attr(&#x27;transform&#x27;, `translate(0,${margin.top + plotHeight})`).call(xAxis);
+        layer.append(&#x27;g&#x27;).attr(&#x27;class&#x27;, &#x27;axis&#x27;).attr(&#x27;transform&#x27;, `translate(${margin.left},0)`).call(d3.axisLeft(y).ticks(4));
+        layer.append(&#x27;text&#x27;).attr(&#x27;class&#x27;, &#x27;axis-title&#x27;).attr(&#x27;data-axis&#x27;, &#x27;x&#x27;).attr(&#x27;x&#x27;, margin.left + plotWidth / 2).attr(&#x27;y&#x27;, height - 8).attr(&#x27;text-anchor&#x27;, &#x27;middle&#x27;).text(&#x27;Distans (km)&#x27;);
+        layer.append(&#x27;text&#x27;).attr(&#x27;class&#x27;, &#x27;axis-title&#x27;).attr(&#x27;data-axis&#x27;, &#x27;y&#x27;).attr(&#x27;transform&#x27;, `translate(16,${margin.top + plotHeight / 2}) rotate(-90)`).attr(&#x27;text-anchor&#x27;, &#x27;middle&#x27;).text(&#x27;Höjd (m ö.h.)&#x27;);
+
+        const guide = layer.append(&#x27;line&#x27;).attr(&#x27;class&#x27;, &#x27;profile-guide&#x27;).attr(&#x27;y1&#x27;, margin.top).attr(&#x27;y2&#x27;, margin.top + plotHeight).style(&#x27;display&#x27;, &#x27;none&#x27;);
+        const dot = layer.append(&#x27;circle&#x27;).attr(&#x27;class&#x27;, &#x27;profile-dot&#x27;).attr(&#x27;r&#x27;, 5).style(&#x27;display&#x27;, &#x27;none&#x27;);
+        const inspect = (event) =&gt; {
+          const pointer = d3.pointer(event, svg.node());
+          const distance = Math.max(0, Math.min(20, x.invert(pointer[0])));
+          const point = interpolate(distance);
+          const px = x(distance), py = y(point[3]);
+          guide.attr(&#x27;x1&#x27;, px).attr(&#x27;x2&#x27;, px).style(&#x27;display&#x27;, null);
+          dot.attr(&#x27;cx&#x27;, px).attr(&#x27;cy&#x27;, py).style(&#x27;display&#x27;, null);
+          const phase = infoForDistance(distance);
+          const paceAtPoint = distance &lt; 8 ? phase.title : `Huvudblock · ${mainPace()}`;
+          showTooltip(event, { title: `Km ${distance.toFixed(1)} · ${Math.round(point[3])} m ö.h.`, body: paceAtPoint });
+        };
+        layer.append(&#x27;rect&#x27;)
+          .attr(&#x27;class&#x27;, &#x27;profile-hit&#x27;)
+          .attr(&#x27;data-chart-hit&#x27;, &#x27;true&#x27;)
+          .attr(&#x27;x&#x27;, margin.left)
+          .attr(&#x27;y&#x27;, margin.top)
+          .attr(&#x27;width&#x27;, plotWidth)
+          .attr(&#x27;height&#x27;, plotHeight)
+          .on(&#x27;pointermove&#x27;, inspect)
+          .on(&#x27;pointerdown&#x27;, inspect)
+          .on(&#x27;mousemove&#x27;, inspect)
+          .on(&#x27;click&#x27;, inspect)
+          .on(&#x27;pointerleave&#x27;, () =&gt; { guide.style(&#x27;display&#x27;, &#x27;none&#x27;); dot.style(&#x27;display&#x27;, &#x27;none&#x27;); hideTooltip(); })
+          .on(&#x27;mouseleave&#x27;, () =&gt; { guide.style(&#x27;display&#x27;, &#x27;none&#x27;); dot.style(&#x27;display&#x27;, &#x27;none&#x27;); hideTooltip(); });
+      };
+
+      root.querySelectorAll(&#x27;[data-runner]&#x27;).forEach(button =&gt; {
+        button.addEventListener(&#x27;click&#x27;, () =&gt; {
+          const selected = button.dataset.runner;
+          currentRunner = selected;
+          root.querySelectorAll(&#x27;[data-runner]&#x27;).forEach(b =&gt; b.setAttribute(&#x27;aria-pressed&#x27;, String(b === button)));
+          root.querySelector(&#x27;#runner-name&#x27;).textContent = runners[selected].name;
+          root.querySelector(&#x27;#runner-plan&#x27;).textContent = runners[selected].plan;
+          root.querySelector(&#x27;#runner-pace-label&#x27;).textContent = runners[selected].label;
+          root.querySelector(&#x27;#runner-pace&#x27;).textContent = runners[selected].pace;
+        });
+      });
+
+      const shareText = `LÅNGPASS – LIDINGÖLOPPSBANAN
+Lördag 29 augusti · start 11:00 på Koltorps gärde
+Totalt: ca 21,7 km
+
+1) 7 km progressivt: 5:30 / 5:20 / 5:10 / 5:00 / 4:50 / 4:40 / 4:30
+2) 1 km återhämtning/förberedelse: 4:40–5:00/km
+3) 13,7 km huvudblock:
+• Johan: 4:00/km jämnt
+• Niklas: 4:10/km jämnt
+• Jag: 1 km på / 30 s flytfart, upprepa
+
+Bana: följ Lidingöloppsspåret från Koltorp. Efter 12 km av huvudblocket når vi Grönsta. Uppför Grönstabacken och vänster tillbaka till Grönsta för totalt 13,7 km i blocket.`;
+      root.querySelector(&#x27;#copy-plan&#x27;).addEventListener(&#x27;click&#x27;, async () =&gt; {
+        const status = root.querySelector(&#x27;#copy-status&#x27;);
+        try {
+          await navigator.clipboard.writeText(shareText);
+          status.textContent = &#x27;Passplanen är kopierad – klistra in den i gruppchatten.&#x27;;
+        } catch (error) {
+          const area = document.createElement(&#x27;textarea&#x27;);
+          area.value = shareText;
+          root.appendChild(area);
+          area.select();
+          document.execCommand(&#x27;copy&#x27;);
+          area.remove();
+          status.textContent = &#x27;Passplanen är kopierad – klistra in den i gruppchatten.&#x27;;
+        }
+      });
+
+      drawMap();
+      drawProfile();
+      new ResizeObserver(drawMap).observe(root.querySelector(&#x27;.lp-map-wrap&#x27;));
+      new ResizeObserver(drawProfile).observe(root.querySelector(&#x27;.lp-profile-wrap&#x27;));
+    })();
+  &lt;/script&gt;
+&lt;/div&gt;
+
+&lt;script src=&quot;https://unpkg.com/@floating-ui/core@1.7.3/dist/floating-ui.core.umd.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://unpkg.com/@floating-ui/dom@1.7.4/dist/floating-ui.dom.umd.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+(() =&gt; {
+  if (window.FloatingUIDOM == null) {
+    return;
+  }
+  const { autoUpdate, computePosition, flip, offset, shift, size } =
+    window.FloatingUIDOM;
+  const tooltipPlacements = new Set([&quot;top&quot;, &quot;right&quot;, &quot;bottom&quot;, &quot;left&quot;]);
+  const tooltipId = `codex-visualization-tooltip-${
+    window.crypto?.randomUUID?.() ?? Date.now().toString(36)
+  }`;
+  const tooltipGap = 5;
+  const hoverDelay = 700;
+  const skipDelay = 300;
+  let activeTrigger = null;
+  let pendingTrigger = null;
+  let tooltip = null;
+  let openTimeout = null;
+  let autoUpdateCleanup = null;
+  let positionRequest = 0;
+  let skipDelayUntil = 0;
+
+  const getTrigger = (target) =&gt;
+    target?.nodeType === Node.ELEMENT_NODE
+      ? target.closest(&quot;[data-tooltip]&quot;)
+      : null;
+  const containsTarget = (trigger, target) =&gt;
+    target?.nodeType != null &amp;&amp; trigger.contains(target);
+  const getContent = (trigger) =&gt;
+    trigger.getAttribute(&quot;data-tooltip&quot;)?.trim() ?? &quot;&quot;;
+  const getPlacement = (trigger) =&gt; {
+    const placement = trigger.getAttribute(&quot;data-tooltip-placement&quot;);
+    return tooltipPlacements.has(placement) ? placement : &quot;top&quot;;
+  };
+  const getTooltip = () =&gt; {
+    if (tooltip == null) {
+      tooltip = document.createElement(&quot;div&quot;);
+      tooltip.id = tooltipId;
+      tooltip.className = &quot;tooltip&quot;;
+      tooltip.setAttribute(&quot;role&quot;, &quot;tooltip&quot;);
+    }
+    return tooltip;
+  };
+  const setDescribedBy = (trigger, described) =&gt; {
+    const ids = new Set(
+      (trigger.getAttribute(&quot;aria-describedby&quot;) ?? &quot;&quot;)
+        .split(/\s+/)
+        .filter(Boolean),
+    );
+    if (described) {
+      ids.add(tooltipId);
+    } else {
+      ids.delete(tooltipId);
+    }
+    if (ids.size === 0) {
+      trigger.removeAttribute(&quot;aria-describedby&quot;);
+    } else {
+      trigger.setAttribute(&quot;aria-describedby&quot;, [...ids].join(&quot; &quot;));
+    }
+  };
+  const clearOpenTimeout = () =&gt; {
+    if (openTimeout != null) {
+      window.clearTimeout(openTimeout);
+      openTimeout = null;
+    }
+    pendingTrigger = null;
+  };
+  const closeTooltip = (activateSkipDelay = true) =&gt; {
+    clearOpenTimeout();
+    positionRequest += 1;
+    autoUpdateCleanup?.();
+    autoUpdateCleanup = null;
+    if (activeTrigger == null) {
+      return;
+    }
+    setDescribedBy(activeTrigger, false);
+    activeTrigger = null;
+    tooltip?.remove();
+    if (activateSkipDelay) {
+      skipDelayUntil = Date.now() + skipDelay;
+    }
+  };
+  const updatePosition = (trigger, floating) =&gt; {
+    const request = ++positionRequest;
+    void computePosition(trigger, floating, {
+      middleware: [
+        offset(tooltipGap),
+        flip({ padding: tooltipGap }),
+        shift({ padding: tooltipGap }),
+        size({
+          padding: tooltipGap,
+          apply({ availableHeight, availableWidth, elements }) {
+            elements.floating.style.setProperty(
+              &quot;--tooltip-available-width&quot;,
+              `${Math.max(0, availableWidth)}px`,
+            );
+            elements.floating.style.setProperty(
+              &quot;--tooltip-available-height&quot;,
+              `${Math.max(0, availableHeight)}px`,
+            );
+          },
+        }),
+      ],
+      placement: getPlacement(trigger),
+      strategy: &quot;fixed&quot;,
+    })
+      .then(({ x, y }) =&gt; {
+        if (activeTrigger !== trigger || request !== positionRequest) {
+          return;
+        }
+        const scale = window.devicePixelRatio || 1;
+        floating.style.transform = `translate(${Math.round(x * scale) / scale}px, ${Math.round(y * scale) / scale}px)`;
+        floating.style.visibility = &quot;visible&quot;;
+      })
+      .catch(() =&gt; {
+        if (activeTrigger === trigger &amp;&amp; request === positionRequest) {
+          closeTooltip(false);
+        }
+      });
+  };
+  const openTooltip = (trigger) =&gt; {
+    const content = getContent(trigger);
+    if (!trigger.isConnected || content.length === 0) {
+      return;
+    }
+    clearOpenTimeout();
+    if (activeTrigger === trigger) {
+      return;
+    }
+    closeTooltip();
+    const floating = getTooltip();
+    floating.textContent = content;
+    floating.style.visibility = &quot;hidden&quot;;
+    floating.style.transform = &quot;translate(0, 0)&quot;;
+    document.body.appendChild(floating);
+    activeTrigger = trigger;
+    setDescribedBy(trigger, true);
+    autoUpdateCleanup = autoUpdate(trigger, floating, () =&gt; {
+      updatePosition(trigger, floating);
+    });
+  };
+  const requestOpen = (trigger, immediate = false) =&gt; {
+    if (
+      getContent(trigger).length === 0 ||
+      activeTrigger === trigger ||
+      pendingTrigger === trigger
+    ) {
+      return;
+    }
+    clearOpenTimeout();
+    pendingTrigger = trigger;
+    const delay =
+      immediate || activeTrigger != null || Date.now() &lt; skipDelayUntil
+        ? 0
+        : hoverDelay;
+    if (delay === 0) {
+      openTooltip(trigger);
+      return;
+    }
+    openTimeout = window.setTimeout(() =&gt; {
+      openTimeout = null;
+      pendingTrigger = null;
+      openTooltip(trigger);
+    }, delay);
+  };
+  const handlePointerOpen = (event) =&gt; {
+    if (event.pointerType === &quot;touch&quot;) {
+      return;
+    }
+    const trigger = getTrigger(event.target);
+    if (trigger == null || containsTarget(trigger, event.relatedTarget)) {
+      return;
+    }
+    requestOpen(trigger);
+  };
+  const handleLeave = (event) =&gt; {
+    const trigger = getTrigger(event.target);
+    if (trigger == null || containsTarget(trigger, event.relatedTarget)) {
+      return;
+    }
+    if (activeTrigger === trigger || pendingTrigger === trigger) {
+      closeTooltip();
+    }
+  };
+  const handleFocusIn = (event) =&gt; {
+    const trigger = getTrigger(event.target);
+    if (trigger?.matches(&quot;:focus-visible&quot;)) {
+      requestOpen(trigger, true);
+    }
+  };
+  const handleKeyDown = (event) =&gt; {
+    if (event.key === &quot;Escape&quot;) {
+      closeTooltip();
+    }
+  };
+  const handleContextMenu = (event) =&gt; {
+    const trigger = getTrigger(event.target);
+    if (activeTrigger === trigger || pendingTrigger === trigger) {
+      closeTooltip();
+    }
+  };
+  const destroy = () =&gt; {
+    closeTooltip(false);
+    document.removeEventListener(&quot;pointerover&quot;, handlePointerOpen);
+    document.removeEventListener(&quot;pointerout&quot;, handleLeave);
+    document.removeEventListener(&quot;focusin&quot;, handleFocusIn);
+    document.removeEventListener(&quot;focusout&quot;, handleLeave);
+    document.removeEventListener(&quot;keydown&quot;, handleKeyDown);
+    document.removeEventListener(&quot;contextmenu&quot;, handleContextMenu);
+    tooltip = null;
+  };
+
+  document.addEventListener(&quot;pointerover&quot;, handlePointerOpen);
+  document.addEventListener(&quot;pointerout&quot;, handleLeave);
+  document.addEventListener(&quot;focusin&quot;, handleFocusIn);
+  document.addEventListener(&quot;focusout&quot;, handleLeave);
+  document.addEventListener(&quot;keydown&quot;, handleKeyDown);
+  document.addEventListener(&quot;contextmenu&quot;, handleContextMenu);
+  window.addEventListener(&quot;pagehide&quot;, destroy, { once: true });
+})();
+&lt;/script&gt;
+&lt;script id=&quot;codex-visualization-lucide&quot; async src=&quot;https://unpkg.com/lucide@1.17.0/dist/umd/lucide.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+(() =&gt; {
+  const initialize = () =&gt; {
+    globalThis.lucide?.createIcons({ attrs: { width: 16, height: 16 } });
+  };
+  if (globalThis.lucide != null) {
+    initialize();
+    return;
+  }
+  document
+    .getElementById(&quot;codex-visualization-lucide&quot;)
+    ?.addEventListener(&quot;load&quot;, initialize, { once: true });
+})();
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+"></iframe>
+</body>
+</html>
