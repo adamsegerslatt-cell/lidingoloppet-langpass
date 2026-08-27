@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: lidingoloppet-langpass
+    runtime: static
+    staticPublishPath: .
+
